@@ -1,0 +1,1390 @@
+Apache Maven 3.0.5 (rNON-CANONICAL_2013-03-12_12-47_mockbuild; 2013-03-12 13:47:10+0100)
+Maven home: /usr/share/maven
+Java version: 1.7.0_45, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.11.6-200.fc19.x86_64", arch: "amd64", family: "unix"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/sbadakhc/.m2/settings.xml
+[DEBUG] Using local repository at /home/sbadakhc/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/sbadakhc/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HelloWorld 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.redhat.rcm:HelloWorld:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [repository.jboss.org (http://repository.jboss.org/nexus/content/repositories/releases/, releases+snapshots), central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [repository.jboss.org (http://repository.jboss.org/nexus/content/repositories/releases/, releases+snapshots), central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0:provide-buildmetadata (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <activateOutputFileMapping default-value="true"/>
+  <addBuildDateToFullVersion default-value="true">${buildMetaData.addBuildDateToFullVersion}</addBuildDateToFullVersion>
+  <addEnvInfo default-value="false">${buildMetaData.addEnvInfo}</addEnvInfo>
+  <addHostInfo default-value="true">${buildMetaData.addHostInfo}</addHostInfo>
+  <addJavaRuntimeInfo default-value="true">${buildMetaData.addJavaRuntimeInfo}</addJavaRuntimeInfo>
+  <addLocallyModifiedTagToFullVersion default-value="true">${buildMetaData.addLocallyModifiedTagToFullVersion}</addLocallyModifiedTagToFullVersion>
+  <addMavenExecutionInfo default-value="true">${buildMetaData.addMavenExecutionInfo}</addMavenExecutionInfo>
+  <addOsInfo default-value="true">${buildMetaData.addOsInfo}</addOsInfo>
+  <addProjectInfo default-value="false">${buildMetaData.addProjectInfo}</addProjectInfo>
+  <addReleaseNumberToFullVersion default-value="true">${buildMetaData.addReleaseNumberToFullVersion}</addReleaseNumberToFullVersion>
+  <addScmInfo default-value="true">${buildMetaData.addScmInfo}</addScmInfo>
+  <addToFilters default-value="true">${buildMetaData.addToFilters}</addToFilters>
+  <basedir>${basedir}</basedir>
+  <buildDatePattern default-value="dd.MM.yyyy">${buildMetaData.buildDate.pattern}</buildDatePattern>
+  <buildUserPropertyName default-value="username"/>
+  <connectionType default-value="connection"/>
+  <createPropertiesReport default-value="true">false</createPropertiesReport>
+  <createXmlReport default-value="true"/>
+  <failOnLocalModifications default-value="false"/>
+  <failOnMissingRevision default-value="false">${buildMetaData.failOnMissingRevision}</failOnMissingRevision>
+  <forceNewProperties default-value="false"/>
+  <hideCommandLineInfo default-value="true">false</hideCommandLineInfo>
+  <hideJavaOptsInfo default-value="true">false</hideJavaOptsInfo>
+  <hideMavenOptsInfo default-value="true">false</hideMavenOptsInfo>
+  <ignoreDotFilesInBaseDir default-value="true"/>
+  <logLevel>${buildMetaData.logLevel}</logLevel>
+  <offline default-value="${settings.offline}"/>
+  <passphrase>${passphrase}</passphrase>
+  <password>${password}</password>
+  <privateKey>${privateKey}</privateKey>
+  <project>${project}</project>
+  <propertiesOutputFile default-value="${project.build.outputDirectory}/META-INF/build.properties"/>
+  <queryRangeInDays default-value="30">${buildMetaData.queryRangeInDays}</queryRangeInDays>
+  <scmDateFormat default-value="yyyy-MM-dd HH:mm:ss">${changelog.dateFormat}</scmDateFormat>
+  <session>${session}</session>
+  <settings>${settings}</settings>
+  <skip default-value="false">${buildMetaData.skip}</skip>
+  <tagBase>${tagBase}</tagBase>
+  <userName>${username}</userName>
+  <validateCheckout default-value="true">${buildMetaData.validateCheckout}</validateCheckout>
+  <xmlOutputFile default-value="${project.build.directory}/buildmetadata.xml">/home/sbadakhc/workspace/HelloWorld/target/classes/META-INF/buildmetadata.xml</xmlOutputFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.5:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.5:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources>${project.testResources}</resources>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.10:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository>${localRepository}</localRepository>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories>${project.pluginArtifactRepositories}</remoteRepositories>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <session>${session}</session>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.3.2:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.3.1:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT
+[DEBUG]    junit:junit:jar:3.8.1:test
+[DEBUG]    com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:jar:1.3.0:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]       commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]       commons-logging:commons-logging:jar:1.0.3:compile
+[DEBUG]       commons-io:commons-io:jar:1.3.2:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-model:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]             classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0:compile
+[DEBUG]          org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5:runtime
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0:compile
+[DEBUG]          org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5:runtime
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0:compile
+[DEBUG]          org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5:runtime
+[DEBUG]             com.jcraft:jsch:jar:0.1.23:runtime
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.10:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-11:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4.1:compile
+[DEBUG]          commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]             commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]             oro:oro:jar:2.0.8:compile
+[DEBUG]             xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-core:jar:1.0-alpha-10:compile
+[DEBUG]          org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-10:compile
+[DEBUG]             org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]             org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]             org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]             org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-10:compile
+[DEBUG]             commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]             org.apache.maven.doxia:doxia-module-apt:jar:1.0-alpha-10:compile
+[DEBUG]             org.apache.maven.doxia:doxia-module-fml:jar:1.0-alpha-10:compile
+[DEBUG]             org.apache.maven.doxia:doxia-module-xdoc:jar:1.0-alpha-10:compile
+[DEBUG]             org.apache.maven.doxia:doxia-module-xhtml:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven.scm:maven-scm-api:jar:1.6:compile
+[DEBUG]       org.apache.maven.scm:maven-scm-manager-plexus:jar:1.6:compile
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.6:compile
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.6:compile
+[DEBUG]          regexp:regexp:jar:1.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]       javax.enterprise:cdi-api:jar:1.0-SP4:compile
+[DEBUG]          org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:compile
+[DEBUG]          javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ HelloWorld ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/sbadakhc/workspace/HelloWorld/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]   (f) reportDirectory = /home/sbadakhc/workspace/HelloWorld/target/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/sbadakhc/workspace/HelloWorld/target
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/classes/META-INF/buildmetadata.xml
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/classes/META-INF
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/classes/HelloWorld/HelloWorld.class
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/classes/HelloWorld
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/classes
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/build.properties
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/maven-archiver/pom.properties
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/maven-archiver
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/test-classes/HelloWorld/HelloWorldTest.class
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/test-classes/HelloWorld
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/surefire/surefire7167501549593665802tmp
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/surefire/surefire6070772685030286403tmp
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/surefire/surefirebooter1440684085587411775.jar
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/surefire
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/HelloWorld-1.0-SNAPSHOT.jar
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/surefire-reports/TEST-HelloWorld.HelloWorldTest.xml
+[INFO] Deleting file /home/sbadakhc/workspace/HelloWorld/target/surefire-reports/HelloWorld.HelloWorldTest.txt
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target/surefire-reports
+[INFO] Deleting directory /home/sbadakhc/workspace/HelloWorld/target
+[DEBUG] Skipping non-existing directory /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG] Skipping non-existing directory /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG] Skipping non-existing directory /home/sbadakhc/workspace/HelloWorld/target/site
+[INFO] 
+[INFO] --- buildmetadata-maven-plugin:1.3.0:provide-buildmetadata (default) @ HelloWorld ---
+[DEBUG] com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:jar:1.3.0:
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]    commons-logging:commons-logging:jar:1.0.3:compile
+[DEBUG]    commons-io:commons-io:jar:1.3.2:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:2.0.10:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-11:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4.1:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-10:compile
+[DEBUG]          org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]          org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]          org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-10:compile
+[DEBUG]          commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-apt:jar:1.0-alpha-10:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-fml:jar:1.0-alpha-10:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xdoc:jar:1.0-alpha-10:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml:jar:1.0-alpha-10:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-api:jar:1.6:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-manager-plexus:jar:1.6:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.6:compile
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.6:compile
+[DEBUG]       regexp:regexp:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    javax.enterprise:cdi-api:jar:1.0-SP4:compile
+[DEBUG]       org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:compile
+[DEBUG]       javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG] Created new class realm plugin>com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0
+[DEBUG] Importing foreign packages into class realm plugin>com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0
+[DEBUG]   Included: com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:jar:1.3.0
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.3
+[DEBUG]   Included: commons-io:commons-io:jar:1.3.2
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.10
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-11
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.0-alpha-10
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-10
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-10
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:1.0-alpha-10
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.0-alpha-10
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:1.0-alpha-10
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.0-alpha-10
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-api:jar:1.6
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-manager-plexus:jar:1.6
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.6
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.6
+[DEBUG]   Included: regexp:regexp:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0-SP4
+[DEBUG]   Included: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1
+[DEBUG]   Included: javax.annotation:jsr250-api:jar:1.0
+[DEBUG]   Included: javax.inject:javax.inject:jar:1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0
+[DEBUG] Configuring mojo com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0:provide-buildmetadata from plugin realm ClassRealm[plugin>com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:1.3.0:provide-buildmetadata' with basic configurator -->
+[DEBUG]   (f) activateOutputFileMapping = true
+[DEBUG]   (f) addBuildDateToFullVersion = true
+[DEBUG]   (f) addEnvInfo = false
+[DEBUG]   (f) addHostInfo = true
+[DEBUG]   (f) addJavaRuntimeInfo = true
+[DEBUG]   (f) addLocallyModifiedTagToFullVersion = true
+[DEBUG]   (f) addMavenExecutionInfo = true
+[DEBUG]   (f) addOsInfo = true
+[DEBUG]   (f) addProjectInfo = false
+[DEBUG]   (f) addReleaseNumberToFullVersion = true
+[DEBUG]   (f) addScmInfo = true
+[DEBUG]   (f) addToFilters = true
+[DEBUG]   (f) basedir = /home/sbadakhc/workspace/HelloWorld
+[DEBUG]   (f) buildDatePattern = dd.MM.yyyy
+[DEBUG]   (f) buildUserPropertyName = username
+[DEBUG]   (f) connectionType = connection
+[DEBUG]   (s) createPropertiesReport = false
+[DEBUG]   (f) createXmlReport = true
+[DEBUG]   (f) failOnLocalModifications = false
+[DEBUG]   (f) failOnMissingRevision = false
+[DEBUG]   (f) forceNewProperties = false
+[DEBUG]   (f) hideCommandLineInfo = false
+[DEBUG]   (f) hideJavaOptsInfo = false
+[DEBUG]   (f) hideMavenOptsInfo = false
+[DEBUG]   (f) ignoreDotFilesInBaseDir = true
+[DEBUG]   (f) offline = false
+[DEBUG]   (s) project = MavenProject: com.redhat.rcm:HelloWorld:1.0-SNAPSHOT @ /home/sbadakhc/workspace/HelloWorld/pom.xml
+[DEBUG]   (s) propertiesOutputFile = /home/sbadakhc/workspace/HelloWorld/target/classes/META-INF/build.properties
+[DEBUG]   (f) queryRangeInDays = 30
+[DEBUG]   (f) scmDateFormat = yyyy-MM-dd HH:mm:ss
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@f51ca6b
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@42c03ea8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) validateCheckout = true
+[DEBUG]   (f) xmlOutputFile = /home/sbadakhc/workspace/HelloWorld/target/classes/META-INF/buildmetadata.xml
+[DEBUG] -- end configuration --
+[DEBUG] Using Maven level FINEST
+[DEBUG] Reading config file 'logging-FINEST.properties'...
+[INFO] Writing properties '/home/sbadakhc/workspace/HelloWorld/target/build.properties'...
+[INFO] Writing XML report '/home/sbadakhc/workspace/HelloWorld/target/classes/META-INF/buildmetadata.xml'...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ HelloWorld ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.5:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[debug] execute contextualize
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.5:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = [/home/sbadakhc/workspace/HelloWorld/target/build.properties]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.redhat.rcm:HelloWorld:1.0-SNAPSHOT @ /home/sbadakhc/workspace/HelloWorld/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/sbadakhc/workspace/HelloWorld/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f51ca6b
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2377,unix/unix:/tmp/.ICE-unix/2377, env.LESSOPEN=||/usr/bin/lesspipe.sh %s, build.os.version=3.11.6-200.fc19.x86_64, build.artifactId=HelloWorld, build.year=2013, sun.java.launcher=SUN_STANDARD, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, build.groupId=com.redhat.rcm, build.timestamp.millis=1383673314017, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/netx.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/plugin.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/classes, env.PWD=/home/sbadakhc/workspace/HelloWorld, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.7.0_45-mockbuild_2013_10_16_17_47-b00, build.maven.execution.isRoot=true, build.java.vendor=Oracle Corporation, env.HISTSIZE=1000000, env.XDG_VTNR=1, build.date.pattern=dd.MM.yyyy, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, env.QT_GRAPHICSSYSTEM_CHECKED=1, env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG, user.name=sbadakhc, maven.build.version=Apache Maven 3.0.5 (rNON-CANONICAL_2013-03-12_12-47_mockbuild; 2013-03-12 13:47:10+0100), env.USER=sbadakhc, env.HISTCONTROL=ignoreboth:erasedups, env.SHELL=/bin/bash, env.DESKTOP_SESSION=gnome, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, env.GJS_DEBUG_OUTPUT=stderr, altDeploymentRepository=local-output::default::file:///tmp/output, env.PATH=/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/sbadakhc/bin:/home/sbadakhc/opt/android-sdk-linux/tools:/home/sbadakhc/opt/android-sdk-linux/platform-tools, build.os.arch=amd64, user.language=en, env.IMSETTINGS_MODULE=none, sun.boot.library.path=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, java.version=1.7.0_45, user.timezone=Europe/Prague, build.java.compiler=HotSpot 64-Bit Tiered Compilers, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-5aWnH2Aa7T,guid=54146ccfe37ac033bcfc2bfd527890ad, sun.arch.data.model=64, build.maven.execution.cmdline=-B -X -e clean install -DaltDeploymentRepository=local-output::default::file:///tmp/output, java.endorsed.dirs=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/endorsed, build.java.runtime.version=1.7.0_45-mockbuild_2013_10_16_17_47-b00, sun.cpu.isalist=, build.maven.execution.goals=clean, install, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=3, file.separator=/, env.HOSTNAME=localhost.localdomain, java.specification.name=Java Platform API Specification, env.IMSETTINGS_INTEGRATE_DESKTOP=yes, env.GDMSESSION=gnome, java.class.version=51.0, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.GNOME_KEYRING_PID=2375, user.country=US, java.home=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre, env.ANDROID_HOME=/home/sbadakhc/opt/android-sdk-linux/tools, java.vm.info=mixed mode, os.version=3.11.6-200.fc19.x86_64, env.LOGNAME=sbadakhc, build.maven.execution.project=com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT, build.host.name=localhost.localdomain, build.maven.execution.opts=-Xmx4096m -XX:MaxPermSize=2048m -Xnoclassgc -XX:+DisableExplicitGC, path.separator=:, java.vm.version=24.45-b08, build.os.name=Linux, env.JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre, env.TERM=xterm-256color, java.awt.printerjob=sun.print.PSPrinterJob, env.ANDROID_TOOLS=/home/sbadakhc/opt/android-sdk-linux/platform-tools, sun.io.unicode.encoding=UnicodeLittle, env.WINDOWPATH=1, awt.toolkit=sun.awt.X11.XToolkit, build.java.runtime.name=OpenJDK Runtime Environment, env.XMODIFIERS=@im=ibus, build.version.full=1.0-20131105-SNAPSHOT, env.GDM_LANG=en_US.UTF-8, user.home=/home/sbadakhc, build.date=05.11.2013, java.specification.vendor=Oracle Corporation, env.M2_HOME=/usr/share/maven, env.WINDOWID=33554438, env.VTE_VERSION=3406, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.MAVEN_CMD_LINE_ARGS=, java.vm.vendor=Oracle Corporation, env.XDG_SEAT=seat0, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -e clean install -DaltDeploymentRepository=local-output::default::file:///tmp/output, env.XDG_SESSION_ID=1, maven.version=3.0.5, env.CVS_RSH=ssh, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, build.version=1.0-SNAPSHOT, env.HOME=/home/sbadakhc, env.LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:, java.io.tmpdir=/tmp, build.java.vm=OpenJDK 64-Bit Server VM, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring-AfCDJb/ssh, env.MAVEN_OPTS=-Xmx4096m -XX:MaxPermSize=2048m -Xnoclassgc -XX:+DisableExplicitGC, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/ext:/usr/java/packages/lib/ext, build.maven.version=3.0.5, user.dir=/home/sbadakhc/workspace/HelloWorld, env.XAUTHORITY=/run/gdm/auth-for-sbadakhc-uC5LW7/database, build.user=sbadakhc, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, env.COLORTERM=gnome-terminal, env.CCACHE_HASHDIR=, env.USERNAME=sbadakhc, build.copyright.year=null-2013, env.MAIL=/var/spool/mail/sbadakhc, file.encoding=UTF-8, env.GPG_AGENT_INFO=/run/user/1000/keyring-AfCDJb/gpg:0:1, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-AfCDJb, env.HISTIGNORE= *:&:?:??}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/sbadakhc/workspace/HelloWorld/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/sbadakhc/workspace/HelloWorld/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ HelloWorld ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/sbadakhc/workspace/HelloWorld
+[DEBUG]   (f) buildDirectory = /home/sbadakhc/workspace/HelloWorld/target
+[DEBUG]   (f) classpathElements = [/home/sbadakhc/workspace/HelloWorld/target/classes, /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar, /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar, /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar, /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar, /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar, /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar, /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar, /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar, /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar, /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar, /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar, /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar, /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar, /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar, /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar, /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/sbadakhc/workspace/HelloWorld/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/sbadakhc/workspace/HelloWorld/target/generated-sources/annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]   (f) outputFileName = HelloWorld-1.0-SNAPSHOT
+[DEBUG]   (f) projectArtifact = com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f51ca6b
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/sbadakhc/workspace/HelloWorld/src/main/java]
+[DEBUG] Classpath: [/home/sbadakhc/workspace/HelloWorld/target/classes
+ /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar
+ /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+ /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+ /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar
+ /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+ /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar
+ /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar
+ /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+ /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+ /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+ /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+ /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar
+ /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+ /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar
+ /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+ /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+ /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar]
+[DEBUG] Output directory: /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG] Classpath:
+[DEBUG]  /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]  /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/sbadakhc/workspace/HelloWorld/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /home/sbadakhc/workspace/HelloWorld/target/classes -classpath /home/sbadakhc/workspace/HelloWorld/target/classes:/home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar:/home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar:/home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar:/home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar:/home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar:/home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar:/home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar:/home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar:/home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar:/home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar:/home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar:/home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar:/home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar: -sourcepath /home/sbadakhc/workspace/HelloWorld/src/main/java: /home/sbadakhc/workspace/HelloWorld/src/main/java/com/redhat/rcm/HelloWorld/HelloWorld.java -g -nowarn -target 1.5 -source 1.5 -encoding UTF-8
+[INFO] Compiling 1 source file to /home/sbadakhc/workspace/HelloWorld/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ HelloWorld ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.5:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[debug] execute contextualize
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.5:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = [/home/sbadakhc/workspace/HelloWorld/target/build.properties]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.redhat.rcm:HelloWorld:1.0-SNAPSHOT @ /home/sbadakhc/workspace/HelloWorld/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/sbadakhc/workspace/HelloWorld/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f51ca6b
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2377,unix/unix:/tmp/.ICE-unix/2377, env.LESSOPEN=||/usr/bin/lesspipe.sh %s, build.os.version=3.11.6-200.fc19.x86_64, build.artifactId=HelloWorld, build.year=2013, sun.java.launcher=SUN_STANDARD, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, build.groupId=com.redhat.rcm, build.timestamp.millis=1383673314017, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/netx.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/plugin.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/classes, env.PWD=/home/sbadakhc/workspace/HelloWorld, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.7.0_45-mockbuild_2013_10_16_17_47-b00, build.maven.execution.isRoot=true, build.java.vendor=Oracle Corporation, env.HISTSIZE=1000000, env.XDG_VTNR=1, build.date.pattern=dd.MM.yyyy, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, env.QT_GRAPHICSSYSTEM_CHECKED=1, env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG, user.name=sbadakhc, maven.build.version=Apache Maven 3.0.5 (rNON-CANONICAL_2013-03-12_12-47_mockbuild; 2013-03-12 13:47:10+0100), env.USER=sbadakhc, env.HISTCONTROL=ignoreboth:erasedups, env.SHELL=/bin/bash, env.DESKTOP_SESSION=gnome, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, env.GJS_DEBUG_OUTPUT=stderr, altDeploymentRepository=local-output::default::file:///tmp/output, env.PATH=/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/sbadakhc/bin:/home/sbadakhc/opt/android-sdk-linux/tools:/home/sbadakhc/opt/android-sdk-linux/platform-tools, build.os.arch=amd64, user.language=en, env.IMSETTINGS_MODULE=none, sun.boot.library.path=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, java.version=1.7.0_45, user.timezone=Europe/Prague, build.java.compiler=HotSpot 64-Bit Tiered Compilers, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-5aWnH2Aa7T,guid=54146ccfe37ac033bcfc2bfd527890ad, sun.arch.data.model=64, build.maven.execution.cmdline=-B -X -e clean install -DaltDeploymentRepository=local-output::default::file:///tmp/output, java.endorsed.dirs=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/endorsed, build.java.runtime.version=1.7.0_45-mockbuild_2013_10_16_17_47-b00, sun.cpu.isalist=, build.maven.execution.goals=clean, install, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=3, file.separator=/, env.HOSTNAME=localhost.localdomain, java.specification.name=Java Platform API Specification, env.IMSETTINGS_INTEGRATE_DESKTOP=yes, env.GDMSESSION=gnome, java.class.version=51.0, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.GNOME_KEYRING_PID=2375, user.country=US, java.home=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre, env.ANDROID_HOME=/home/sbadakhc/opt/android-sdk-linux/tools, java.vm.info=mixed mode, os.version=3.11.6-200.fc19.x86_64, env.LOGNAME=sbadakhc, build.maven.execution.project=com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT, build.host.name=localhost.localdomain, build.maven.execution.opts=-Xmx4096m -XX:MaxPermSize=2048m -Xnoclassgc -XX:+DisableExplicitGC, path.separator=:, java.vm.version=24.45-b08, build.os.name=Linux, env.JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre, env.TERM=xterm-256color, java.awt.printerjob=sun.print.PSPrinterJob, env.ANDROID_TOOLS=/home/sbadakhc/opt/android-sdk-linux/platform-tools, sun.io.unicode.encoding=UnicodeLittle, env.WINDOWPATH=1, awt.toolkit=sun.awt.X11.XToolkit, build.java.runtime.name=OpenJDK Runtime Environment, env.XMODIFIERS=@im=ibus, build.version.full=1.0-20131105-SNAPSHOT, env.GDM_LANG=en_US.UTF-8, user.home=/home/sbadakhc, build.date=05.11.2013, java.specification.vendor=Oracle Corporation, env.M2_HOME=/usr/share/maven, env.WINDOWID=33554438, env.VTE_VERSION=3406, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.MAVEN_CMD_LINE_ARGS=, java.vm.vendor=Oracle Corporation, env.XDG_SEAT=seat0, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -e clean install -DaltDeploymentRepository=local-output::default::file:///tmp/output, env.XDG_SESSION_ID=1, maven.version=3.0.5, env.CVS_RSH=ssh, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, build.version=1.0-SNAPSHOT, env.HOME=/home/sbadakhc, env.LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:, java.io.tmpdir=/tmp, build.java.vm=OpenJDK 64-Bit Server VM, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring-AfCDJb/ssh, env.MAVEN_OPTS=-Xmx4096m -XX:MaxPermSize=2048m -Xnoclassgc -XX:+DisableExplicitGC, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/lib/ext:/usr/java/packages/lib/ext, build.maven.version=3.0.5, user.dir=/home/sbadakhc/workspace/HelloWorld, env.XAUTHORITY=/run/gdm/auth-for-sbadakhc-uC5LW7/database, build.user=sbadakhc, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, env.COLORTERM=gnome-terminal, env.CCACHE_HASHDIR=, env.USERNAME=sbadakhc, build.copyright.year=null-2013, env.MAIL=/var/spool/mail/sbadakhc, file.encoding=UTF-8, env.GPG_AGENT_INFO=/run/user/1000/keyring-AfCDJb/gpg:0:1, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-AfCDJb, env.HISTIGNORE= *:&:?:??}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/sbadakhc/workspace/HelloWorld/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/sbadakhc/workspace/HelloWorld/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ HelloWorld ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/sbadakhc/workspace/HelloWorld
+[DEBUG]   (f) buildDirectory = /home/sbadakhc/workspace/HelloWorld/target
+[DEBUG]   (f) classpathElements = [/home/sbadakhc/workspace/HelloWorld/target/test-classes, /home/sbadakhc/workspace/HelloWorld/target/classes, /home/sbadakhc/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar, /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar, /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar, /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar, /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar, /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar, /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar, /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar, /home/sbadakhc/.m2/repository/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar, /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar, /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar, /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar, /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar, /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar, /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar, /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar, /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar, /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar, /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar, /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar, /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar, /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar, /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/sbadakhc/workspace/HelloWorld/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /home/sbadakhc/workspace/HelloWorld/target/generated-sources/test-annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG]   (f) outputFileName = HelloWorld-1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f51ca6b
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/sbadakhc/workspace/HelloWorld/src/test/java]
+[DEBUG] Classpath: [/home/sbadakhc/workspace/HelloWorld/target/test-classes
+ /home/sbadakhc/workspace/HelloWorld/target/classes
+ /home/sbadakhc/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+ /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar
+ /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+ /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+ /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar
+ /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+ /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar
+ /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar
+ /home/sbadakhc/.m2/repository/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar
+ /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+ /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+ /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+ /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+ /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar
+ /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar
+ /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar
+ /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+ /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar
+ /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+ /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+ /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar]
+[DEBUG] Output directory: /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG] Classpath:
+[DEBUG]  /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG]  /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]  /home/sbadakhc/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+[DEBUG]  /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/sbadakhc/workspace/HelloWorld/src/test/java
+[DEBUG] Command line options:
+[DEBUG] -d /home/sbadakhc/workspace/HelloWorld/target/test-classes -classpath /home/sbadakhc/workspace/HelloWorld/target/test-classes:/home/sbadakhc/workspace/HelloWorld/target/classes:/home/sbadakhc/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar:/home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar:/home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar:/home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar:/home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar:/home/sbadakhc/.m2/repository/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar:/home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar:/home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar:/home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar:/home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar:/home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar:/home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar:/home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar:/home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar:/home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar:/home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar:/home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar:/home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar: -sourcepath /home/sbadakhc/workspace/HelloWorld/src/test/java: /home/sbadakhc/workspace/HelloWorld/src/test/java/com/redhat/rcm/HelloWorld/HelloWorldTest.java -g -nowarn -target 1.5 -source 1.5 -encoding UTF-8
+[INFO] Compiling 1 source file to /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ HelloWorld ---
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.10:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.10:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.10:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.10:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test (scope managed from compile)
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.10
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.10
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.10
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.10
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.10:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.10, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.10:test' with basic configurator -->
+[DEBUG]   (s) basedir = /home/sbadakhc/workspace/HelloWorld
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =        id: local
+      url: file:///home/sbadakhc/.m2/repository/
+   layout: none
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.10:, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.10:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.10:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.10:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:2.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile}
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) project = MavenProject: com.redhat.rcm:HelloWorld:1.0-SNAPSHOT @ /home/sbadakhc/workspace/HelloWorld/pom.xml
+[DEBUG]   (s) projectArtifactMap = {junit:junit=junit:junit:jar:3.8.1:test, com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin=com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin:jar:1.3.0:compile, commons-lang:commons-lang=commons-lang:commons-lang:jar:2.6:compile, commons-beanutils:commons-beanutils=commons-beanutils:commons-beanutils:jar:1.7.0:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.0.3:compile, commons-io:commons-io=commons-io:commons-io:jar:1.3.2:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0:compile, org.apache.maven.wagon:wagon-file=org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5:runtime, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0:compile, org.apache.maven.wagon:wagon-http-lightweight=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5:runtime, org.apache.maven.wagon:wagon-provider-api=org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0:compile, commons-cli:commons-cli=commons-cli:commons-cli:jar:1.0:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0:compile, org.codehaus.plexus:plexus-interactivity-api=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0:compile, org.apache.maven.wagon:wagon-ssh=org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5:runtime, com.jcraft:jsch=com.jcraft:jsch:jar:0.1.23:runtime, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.6:compile, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.10:compile, org.apache.maven.doxia:doxia-sink-api=org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-11:compile, org.apache.maven.reporting:maven-reporting-impl=org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4.1:compile, commons-validator:commons-validator=commons-validator:commons-validator:jar:1.2.0:compile, commons-digester:commons-digester=commons-digester:commons-digester:jar:1.6:compile, oro:oro=oro:oro:jar:2.0.8:compile, xml-apis:xml-apis=xml-apis:xml-apis:jar:1.0.b2:compile, org.apache.maven.doxia:doxia-core=org.apache.maven.doxia:doxia-core:jar:1.0-alpha-10:compile, org.apache.maven.doxia:doxia-site-renderer=org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-10:compile, org.codehaus.plexus:plexus-i18n=org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile, org.codehaus.plexus:plexus-velocity=org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile, org.apache.velocity:velocity=org.apache.velocity:velocity:jar:1.5:compile, org.apache.maven.doxia:doxia-decoration-model=org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-10:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2:compile, org.apache.maven.doxia:doxia-module-apt=org.apache.maven.doxia:doxia-module-apt:jar:1.0-alpha-10:compile, org.apache.maven.doxia:doxia-module-fml=org.apache.maven.doxia:doxia-module-fml:jar:1.0-alpha-10:compile, org.apache.maven.doxia:doxia-module-xdoc=org.apache.maven.doxia:doxia-module-xdoc:jar:1.0-alpha-10:compile, org.apache.maven.doxia:doxia-module-xhtml=org.apache.maven.doxia:doxia-module-xhtml:jar:1.0-alpha-10:compile, org.apache.maven.scm:maven-scm-api=org.apache.maven.scm:maven-scm-api:jar:1.6:compile, org.apache.maven.scm:maven-scm-manager-plexus=org.apache.maven.scm:maven-scm-manager-plexus:jar:1.6:compile, org.apache.maven.scm:maven-scm-provider-svnexe=org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.6:compile, org.apache.maven.scm:maven-scm-provider-svn-commons=org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.6:compile, regexp:regexp=regexp:regexp:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.6:compile, javax.enterprise:cdi-api=javax.enterprise:cdi-api:jar:1.0-SP4:compile, org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec=org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:compile, javax.annotation:jsr250-api=javax.annotation:jsr250-api:jar:1.0:compile, javax.inject:javax.inject=javax.inject:javax.inject:jar:1:compile}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [       id: repository.jboss.org
+      url: http://repository.jboss.org/nexus/content/repositories/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,        id: central
+      url: http://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /home/sbadakhc/workspace/HelloWorld/target/surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@f51ca6b
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /home/sbadakhc/workspace/HelloWorld/src/test/java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /home/sbadakhc/workspace/HelloWorld
+[DEBUG] -- end configuration --
+[INFO] Surefire report directory: /home/sbadakhc/workspace/HelloWorld/target/surefire-reports
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.10:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.10:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: /home/sbadakhc/.m2/repository/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: /home/sbadakhc/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar Scope: compile
+[DEBUG] Setting system property [altDeploymentRepository]=[local-output::default::file:///tmp/output]
+[DEBUG] Setting system property [user.dir]=[/home/sbadakhc/workspace/HelloWorld]
+[DEBUG] Setting system property [localRepository]=[/home/sbadakhc/.m2/repository]
+[DEBUG] Setting system property [basedir]=[/home/sbadakhc/workspace/HelloWorld]
+[DEBUG] Using JVM: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/bin/java
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit3:jar:2.10:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.10:test (selected for test)
+[DEBUG] Adding to surefire test classpath: /home/sbadakhc/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar Scope: test
+[DEBUG] Adding to surefire test classpath: /home/sbadakhc/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar Scope: test
+[DEBUG] test classpath classpath:
+[DEBUG]   /home/sbadakhc/workspace/HelloWorld/target/test-classes
+[DEBUG]   /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]   /home/sbadakhc/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/com/redhat/rcm/maven/plugin/buildmetadata-maven-plugin/1.3.0/buildmetadata-maven-plugin-1.3.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-project/2.0/maven-project-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-profile/2.0/maven-profile-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-model/2.0/maven-model-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact-manager/2.0/maven-artifact-manager-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-core/2.0/maven-core-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-alpha-5/wagon-file-1.0-alpha-5.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0/maven-plugin-parameter-documenter-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-alpha-5/wagon-http-lightweight-1.0-alpha-5.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-5/wagon-provider-api-1.0-alpha-5.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-repository-metadata/2.0/maven-repository-metadata-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0/maven-error-diagnostics-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-registry/2.0/maven-plugin-registry-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0/maven-plugin-descriptor-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-monitor/2.0/maven-monitor-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-alpha-5/wagon-ssh-1.0-alpha-5.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/com/jcraft/jsch/0.1.23/jsch-0.1.23.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.10/maven-reporting-api-2.0.10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-11/doxia-sink-api-1.0-alpha-11.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/2.0.4.1/maven-reporting-impl-2.0.4.1.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-core/1.0-alpha-10/doxia-core-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-10/doxia-site-renderer-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-10/doxia-decoration-model-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-apt/1.0-alpha-10/doxia-module-apt-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-fml/1.0-alpha-10/doxia-module-fml-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xdoc/1.0-alpha-10/doxia-module-xdoc-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.0-alpha-10/doxia-module-xhtml-1.0-alpha-10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-api/1.6/maven-scm-api-1.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-manager-plexus/1.6/maven-scm-manager-plexus-1.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.6/maven-scm-provider-svnexe-1.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.6/maven-scm-provider-svn-commons-1.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+[DEBUG] provider classpath classpath:
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+[DEBUG]   /home/sbadakhc/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Forking command line: /bin/sh -c cd /home/sbadakhc/workspace/HelloWorld && /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc19.x86_64/jre/bin/java -jar /home/sbadakhc/workspace/HelloWorld/target/surefire/surefirebooter7732180099952576338.jar /home/sbadakhc/workspace/HelloWorld/target/surefire/surefire2229613629668576897tmp /home/sbadakhc/workspace/HelloWorld/target/surefire/surefire7226177993792309055tmp
+Running HelloWorld.HelloWorldTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ HelloWorld ---
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.4.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.3.2
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.4.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.3.2:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.3.2:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /home/sbadakhc/workspace/HelloWorld/target/classes
+[DEBUG]   (f) defaultManifestFile = /home/sbadakhc/workspace/HelloWorld/target/classes/META-INF/MANIFEST.MF
+[DEBUG]   (f) finalName = HelloWorld-1.0-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /home/sbadakhc/workspace/HelloWorld/target
+[DEBUG]   (f) project = MavenProject: com.redhat.rcm:HelloWorld:1.0-SNAPSHOT @ /home/sbadakhc/workspace/HelloWorld/pom.xml
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Destination /home/sbadakhc/workspace/HelloWorld/target/HelloWorld-1.0-SNAPSHOT.jar not found.)
+[INFO] Building jar: /home/sbadakhc/workspace/HelloWorld/target/HelloWorld-1.0-SNAPSHOT.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory HelloWorld/
+[DEBUG] adding entry HelloWorld/HelloWorld.class
+[DEBUG] adding entry META-INF/buildmetadata.xml
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.redhat.rcm/
+[DEBUG] adding directory META-INF/maven/com.redhat.rcm/HelloWorld/
+[DEBUG] adding entry META-INF/maven/com.redhat.rcm/HelloWorld/pom.xml
+[DEBUG] adding entry META-INF/maven/com.redhat.rcm/HelloWorld/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ HelloWorld ---
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.3.1:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.3.1, parent: sun.misc.Launcher$AppClassLoader@12da89a7]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.3.1:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.redhat.rcm:HelloWorld:jar:1.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =        id: local
+      url: file:///home/sbadakhc/.m2/repository/
+   layout: none
+
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (f) pomFile = /home/sbadakhc/workspace/HelloWorld/pom.xml
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/sbadakhc/workspace/HelloWorld/target/HelloWorld-1.0-SNAPSHOT.jar to /home/sbadakhc/.m2/repository/com/redhat/rcm/HelloWorld/1.0-SNAPSHOT/HelloWorld-1.0-SNAPSHOT.jar
+[DEBUG] Writing resolution tracking file /home/sbadakhc/.m2/repository/com/redhat/rcm/HelloWorld/1.0-SNAPSHOT/_maven.repositories
+[INFO] Installing /home/sbadakhc/workspace/HelloWorld/pom.xml to /home/sbadakhc/.m2/repository/com/redhat/rcm/HelloWorld/1.0-SNAPSHOT/HelloWorld-1.0-SNAPSHOT.pom
+[DEBUG] Writing resolution tracking file /home/sbadakhc/.m2/repository/com/redhat/rcm/HelloWorld/1.0-SNAPSHOT/_maven.repositories
+[DEBUG] Installing com.redhat.rcm:HelloWorld:1.0-SNAPSHOT/maven-metadata.xml to /home/sbadakhc/.m2/repository/com/redhat/rcm/HelloWorld/1.0-SNAPSHOT/maven-metadata-local.xml
+[DEBUG] Installing com.redhat.rcm:HelloWorld/maven-metadata.xml to /home/sbadakhc/.m2/repository/com/redhat/rcm/HelloWorld/maven-metadata-local.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.770s
+[INFO] Finished at: Tue Nov 05 18:42:02 CET 2013
+[INFO] Final Memory: 36M/213M
+[INFO] ------------------------------------------------------------------------
