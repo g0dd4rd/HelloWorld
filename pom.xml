@@ -51,8 +51,7 @@
         <artifactId>buildmetadata-maven-plugin</artifactId>
         <version>1.3.0</version>
         <executions>
-          <execution>
-            <phase>initialize</phase>
+          <phase>initialize</phase>
             <goals>
               <goal>provide-buildmetadata</goal>
             </goals>
@@ -64,7 +63,6 @@
               <hideJavaOptsInfo>false</hideJavaOptsInfo>
 	      <addScminfo>true</addScminfo>
             </configuration>
-          </execution>
         </executions>
       </plugin>
     </plugins>
